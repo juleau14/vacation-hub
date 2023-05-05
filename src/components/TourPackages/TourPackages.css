@@ -1,7 +1,122 @@
 @import url(./../../fonts.css);
 
+.tour-packages-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.tour-packages {
+  display: flex;
+  flex-direction: column;
+  gap: 105px;
+  width: 2050px;
+  height: 935px;
+  margin-top: 148px;
+  margin-left: 175px;
+}
 
 
-div {
-  color: red;
+.tour-packages-header {
+  width: 1520px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tour-packages-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.tour-packages-pretitle {
+  color: #E61C5D;
+  font: 20px Barlow-Bold;
+}
+
+.tour-packages-title {
+  width: 768px;
+  font: 60px Barlow-Bold;
+  color: #112B3C;
+}
+
+.tour-packages-arrows {
+  display: flex;
+  gap: 18px;
+}
+
+.tour-packages-arrows img {
+  width: 60px;
+  height: auto;
+}
+
+.tour-packages-slides {
+  width: 2040px;
+  display: flex;
+  gap: 40px;
+}
+
+.tour-packages-slide {
+  border-radius: 25px;
+  overflow: hidden;
+
+}
+
+.tour-packages-trip-image {
+  width: 100%;
+  height: 390px;
+  margin-bottom: -10px;
+}
+
+.tour-packages-slide-bottom {
+  height: fit-content;
+  width: 100%;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px 30px 40px 30px;
+  box-shadow: 0px 0px 46px -37px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 0px 0px 46px -37px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 0px 0px 46px -37px rgba(0,0,0,0.75) inset;}
+
+.tour-packages-slide-text {
+  color: #112B3C;
+  font: 26px Barlow-Bold;
+}
+
+.tour-packages-slide-location {
+  font: 20px Barlow-Regular;
+  color: #112B3C;
+}
+
+.tour-packages-slide-rate {
+  display: flex;
+  background-color: rgba(255, 189, 57, 0.2);
+  width: fit-content;
+  gap: 3px;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 45px;
+}
+
+.tour-packages-slide-rate span {
+  font: 20px Barlow-SemiBold;
+  color: rgba(255, 189, 57, 1);
+}
+
+.tour-packages-slide-price-duration {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font: 32px Barlow-Bold;
+  color: #E61C5D;
+}
+
+.duration {
+  font: 18px Barlow-Medium;
+  color: #808080;
 }
