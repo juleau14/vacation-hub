@@ -1,0 +1,93 @@
+@import url(./../../fonts.css);
+
+
+.about-us-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.about-us {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+
+.about-us-left {
+  width: 30vw;
+  height: fit-content;
+  position: relative;
+}
+
+.about-us-back {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.about-us-front {
+  position: absolute;
+  top: 245px;
+  left: 265px;
+}
+
+.about-us-right {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-us-pretitle {
+  font-size: 16px;
+  font-family: Barlow-Bold;
+  color: #E61C5D;
+}
+
+.about-us-title {
+  color: #112B3C;
+  font-family: Barlow-Bold;
+  font-size: 48px;
+}
+
+.about-us-text {
+  width: 442px;
+  color: #808080;
+  font-family: Barlow-Regular;
+  font-size: 20px;
+}
+
+.about-us-insight {
+  display: flex;
+  gap: 24px;
+  width: fit-content;
+  height: fit-content; 
+}
+
+.about-us-insight-item {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+}
+
+.about-us-insight-number {
+  color: #E61C5D;
+  font-size: 40px;
+  font-family: Barlow-Bold;
+}
+
+.about-us-insight-legend {
+  font-size: 16px;
+  font-family: Barlow-Regular;
+  color: #808080;
+  width: 100px;
+  height: fit-content;
+}

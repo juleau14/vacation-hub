@@ -1,0 +1,133 @@
+@import url(./../../fonts.css);
+
+.hero-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: calc(100vh - 100px);
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  width: 80%;
+}
+
+.hero-left {
+  height: fit-content;
+  width: 40vw;
+}
+
+.hero-title {
+  font-family: Barlow-ExtraBold;
+  font-size: 64px;
+  color: #112B3C;
+}
+
+.hero-title span {
+  background-size: cover;
+  overflow: visible;
+}
+
+.hero-subtitle {
+  color: #808080;
+  font-family: Barlow-Regular;
+  font-size: 24px;
+  width: 469px;
+  margin: 32px 0;
+}
+
+.search {
+  width: 469px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 58px;
+  background-color: white;
+  box-shadow: 1px 11px 95px -3px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 1px 11px 95px -3px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 1px 11px 95px -3px rgba(0, 0, 0, 0.23);
+}
+
+.search-content {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  gap: 32px;
+}
+
+.search-item {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+
+.search-item-right {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.search-item-button {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.search-item-button span {
+  font-family: Barlow-SemiBold;
+  color: #808080;
+  font-size: 12px;
+}
+
+
+.search-item-button img {
+  width: 14px;
+  height: 14px;
+}
+
+
+.search-item-textfield {
+  font-family: Barlow-Bold;
+  color: #112B3C;
+  font-size: 12px;
+}
+
+.search-trait {
+  width: 1px;
+  height: 24px;
+  background-color: #808080;
+}
+
+.search-button {
+  width: 48px;
+}
+
+.hero-right {
+  position: relative;
+  width: 30vw;
+  height: 579px;
+}
+
+.hero-large {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 400px;
+  height: auto;
+  z-index: 10;
+}
+
+.hero-small {
+  position: absolute;
+  z-index: 20;
+  height: 300px;
+  width: auto;
+  top: 271px;
+  left: 300px;
+}
