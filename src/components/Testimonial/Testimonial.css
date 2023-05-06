@@ -26,7 +26,6 @@
 .testimonial-slider {
   display: flex;
   gap: 65px;
-  border: solid blue 1px;
   align-items: center;
   margin-top: 100px;
 }

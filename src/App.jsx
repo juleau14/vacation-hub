@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero';
 import AboutUs from './components/AboutUs/AboutUs';
 import TourPackages from './components/TourPackages/TourPackages';
 import Testimonial from './components/Testimonial/Testimonial';
+import AllTours from './components/AllTours/AllTours';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutUs />
       <TourPackages />
       <Testimonial />
+      <AllTours />
     </React.Fragment>
   );
 }
